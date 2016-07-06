@@ -1,0 +1,22 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+body {
+
+}
+
+// bootstrap style override
+hr { border: none; }
+
+// helper classes
+.box-reset { padding: 0; margin: 0; }
+
+// remove button outline in chrome
+*:focus { outline: none !important; }
+
+// ng-animation
+.fade {
+  transition: 0.2s linear opacity;
+  opacity: 1;
+}
+.fade.ng-hide { opacity: 0; }
